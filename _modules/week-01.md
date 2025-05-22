@@ -3,13 +3,12 @@ title: Linear Algebra I (matrices, vectors, bases, and orthogonality)
 ---
 May 22
 : [PS 0]({{ site.baseurl }}/assets/files/ps0.pdf) released (due May 30 11:59 PM ET) + [Ed Announcement]()
-  : [ps0_template.zip]({{ site.baseurl }}/assets/files/ps0_template.zip)
+  : [ps0_template.zip]({{ site.baseurl }}/assets/files/ps0_student.zip)
 
 May 27
 : Lecture: Vectors, matrices, and least squares
   : [MML 2.1 - 2.8, 3.1 - 3.3](https://mml-book.github.io/book/mml-book.pdf), [VMLS 1.1-1.5, 2.1-2.3, 3.1-3.4, 5.1, 5.2, 6.1-6.4, 12.1-12.4](https://web.stanford.edu/~boyd/vmls/vmls.pdf), [Regression (d=2)]({{ site.baseurl }}/assets/figs/2d_regression.html)
-: [PS 1]({{ site.baseurl }}/assets/files/ps1.pdf) released, due June 6, 11:59 PM ET
-  : [ps1.pdf]({{ site.baseurl }}/assets/files/ps1.pdf), [ps1_template.zip]({{ site.baseurl }}/assets/files/ps1_template.zip), [ps1.ipynb]({{ site.baseurl }}/assets/files/ps1.ipynb), [ps1_tex.zip]({{ site.baseurl }}/assets/files/ps1_tex.zip)
+: PS 1 released, due June 6, 11:59 PM ET
 : [Reading Project]({{ site.baseurl }}{% link project.md %}) released, due June 3 11:59 PM ET
   : [project instructions]({{ site.baseurl }}{% link project.md %})
 
