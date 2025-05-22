@@ -14,10 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Math for ML
-tagline: Columbia University, COMS4995 Summer B 2024
+tagline: Columbia University, COMS4995 Summer A 2025
 description: Mathematics for Machine Learning
 author: Samuel Deng
-baseurl: '/math4ml_su24' # the subpath of your site, e.g. /blog
+baseurl: '/math4ml_su25' # the subpath of your site, e.g. /blog
 url: 'https://samuel-deng.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
@@ -29,13 +29,13 @@ heading_anchors: true
 permalink: pretty
 aux_links:
   Courseworks:
-    - 'https://courseworks2.columbia.edu/courses/202683'
+    - 'https://courseworks2.columbia.edu/courses/222240'
   Video Recordings:
-    - 'https://courseworks2.columbia.edu/courses/202683/external_tools/12497'
+    - 'https://youtube.com/playlist?list=PLNm9W-YkOtpNKxyOQpst8JYp_qVg4zh3P&si=u-Hs-HyRULNu4AO3'
   Gradescope:
-    - 'https://www.gradescope.com/courses/801399'
+    - 'https://www.gradescope.com/courses/1045925'
   Ed:
-    - 'https://edstem.org/us/courses/60529/discussion/'
+    - 'https://edstem.org/us/courses/79370/discussion/'
   Anonymous Feedback:
     - 'https://forms.gle/fYbJrUCgPyvJeM93A'
 footer_content:

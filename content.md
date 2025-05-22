@@ -42,6 +42,8 @@ same time, though, it can often be intimidating to speak up for fear of asking a
 every lecture, I'll have a fully anonymous interactive poll to keep an eye on how people are feeling during lecture and I'll check it intermittently,
 especially during proofs. When prompted to regsiter, just click "Skip for now." [The poll link is here.](https://pollev.com/samdeng)
 
+**Unit reviews.** At the end of each "pillar" of the course, we will hold an optional unit review session to make sure that everyone is on the same page before moving onto the next session. These will be informal recitations where we recap the [Course Skeleton]({{ site.baseurl }}{% link skeleton.md %}) to get a big picture view and, more importantly, answer any questions and confusion you might have. The dates/times/locations will be posted here and on the [Calendar]({{ site.baseurl }}{% link calendar.md %}).
+
 {% for module in site.modules %}
 {{ module }}
 {% endfor %}

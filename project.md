@@ -61,65 +61,13 @@ Here's some more advice from folks much wiser than I am:
 - [A Theory of the Learnable]({{ site.baseurl }}/project/Valiant.pdf) by Leslie G. Valiant
 - [Distance Metric Learning for Large Margin Nearest Neighbor Classiﬁcation]({{ site.baseurl }}/project/Weinberger_Saul.pdf) by Kilian Q. Weinberger and Lawrence K. Saul
 
-## Final Evaluation Outline
-Congratulations for making it to the end of the course! The final exercise of the course will be to do a re-reading of the
-paper that you read at the beginning of the semester and track how much you've grown. As with the first evaluation, these
-will not be graded based on how much you understand but, rather, just on whether you made a concerted and faithful effort
-to answer these prompts below.
-
-For the final evaluation of the paper, submit a LaTeX document that follows these guidelines. The formatting is mostly
-up to you; just make sure that the document is neat and your name and UNI are on the document somewhere. 
-
-**Length:** Your evaluation should be 1-2 pages in length total. If you go a bit over 2 pages, that's fine.
-
-**Due:** This report is due Monday, August 12 11:59 PM ET on Gradescope. Late days may be used on this assignment.
-
-In your document, answer each of the prompts below with a paragraph. To answer these prompts, you will need to reference
-your first evaluation of the paper.
-
-**Prompt 1 (Problem Setup Redux):** What problem is the paper trying to solve? Look at your description of the problem
-from the beginning of this semester. Are there any parts of it that you can more formally state or understand? Try to
-describe the problem in English again, noting what components of the problem setup make more sense to you now. If there
-is no change in understanding, mention that as well. *In addition to these questions:* which unit and lecture in the course
-does this problem setup relate most to, and is there a particular concept that underlies this setup?
-
-**Prompt 2 (Problem Solution Redux):** How does this paper seem to solve this problem? Look at your description of the solution
-from the beginning of this semester. Are there any parts of it that you can more formally state or understand? Try to
-describe the problem in English again, noting what components of the solution make more sense to you now. If there
-is no change in understanding, mention that as well. *In addition to these questions:* which unit and lecture in the course
-does this problem solution relate most to, and is there a particular concept that underlies this solution?
-
-**Prompt 3 (One Tricky Statement):** Take the tricky statement you noted in your first evaluation, and attempt again to 
-explain the components of this statement to the best of your ability. Are there any components of the statement that you
-now have a definition for? If so, state the components and, to your understanding, what those components mean. Are there
-any components that you're still confused about? State those components as well. Evaluate if you understand your tricky
-statement better now. Evaluate the same "simple cases" you wrote down in your first evaluation; do you understand better
-how these simple cases impact the statement you chose?
-
-**Prompt 4 (Proof):** If the tricky statement you noted in Prompt 3 was a theorem or proposition, take a look at its proof.
-If not, take a look at any surrounding mathematical material for that statement, trying to isolate some claim from the author(s)
-about how it works or some statement about the quality or use cases of the statement. What parts of the proof/supporting 
-statements do you understand? What parts don't you understand? Can you give a one or two sentence summary of the proof/
-supporting statements? 
-
-**Prompt 5 (OLS and GD):** We've now completed the two main "stories" of the course: ordinary least squares regression
-and gradient descent. The former can be seen as one way to model the "what" of machine learning; the latter can be seen 
-as the "how." It turns out that many ideas in machine learning can be seen as extensions and generalizations of these
-two main ideas. How do the ideas and objects of your paper relate to OLS? How do the ideas and objects of your paper 
-relate to GD? 
-
-**Prompt 6 (Your Own Ideas):** Research is iterative -- these papers are, in some sense, "classics" and accepted 
-knowledge in the field, but at some point they were at the frontier of our knowledge. Now that you're at the end of the
-course, do you have any new ideas about next steps/future directions for this paper that might be interesting? If not,
-just state that you don't; that's perfectly fine as well.
-
 ## First Evaluation Outline
 For the first evaluation of the paper, submit a LaTeX document that follows these guidelines. The formatting is mostly
 up to you; just make sure that the document is neat and your name and UNI are on the document somewhere.
 
 **Length:** Your evaluation should be 1-2 pages in length total. If you go a bit over 2 pages, that's fine.
 
-**Due:** This report is due Monday, July 8 11:59 PM ET on Gradescope. Late days may be used on this assignment.
+**Due:** This report is due Tuesday, June 3 11:59 PM ET on Gradescope. Late days may be used on this assignment.
 
 In your document, answer each of the prompts below with a paragraph. 
 

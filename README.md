@@ -11,8 +11,8 @@ nav_order: 1
 
 # Welcome to Mathematics for Machine Learning!
 Welcome to the main course webpage for *Mathematics for Machine Learning*! This is a course taught at Columbia University during the
-**Summer B semester of 2024** by [Samuel Deng](https://samuel-deng.github.io/). If you're a student, all course announcements, logistics, and materials will be available on
-this page for ease of access (check here first instead of Courseworks). If you're just dropping by, I hope this course is useful to you.
+**Summer A semester of 2025** by [Samuel Deng](https://samuel-deng.github.io/). If you're a student, all content, logistics, and materials will be available on
+this page for ease of access (check here first instead of Courseworks). All course announcements will be on [Ed](https://edstem.org/us/courses/79370/discussion). If you're just dropping by, I hope this course is useful to you.
 
 **What's this course?** This is a topics course meant to strengthen the mathematical fundamentals for students wishing to
 pursue further study in machine learning. The serious study of machine learning requires a student
