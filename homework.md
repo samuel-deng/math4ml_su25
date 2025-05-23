@@ -7,7 +7,7 @@ description: Homework submission instructions.
 
 Submission for all the problem sets is handled through [Gradescope](https://www.gradescope.com/courses/801399). Each 
 problem set should have about four to five written problems and one programming problem. Each problem set will be
-released with a template file named `ps#_template.zip` and a Jupyter notebook file named `ps#.ipynb`. We'll also
+released with a template file named `ps#_student.zip` and a Jupyter notebook file named `ps#.ipynb`. We'll also
 upload the source code for the LaTeX of the problem set PDF in a file titled `ps#_tex.zip`, in case you'd like to
 refer to the source for the problem set. If additional files are needed, that will be indicated on the problem set.
 
@@ -19,7 +19,7 @@ and **no homework will be accepted after 11:59 PM ET three late days after the i
 For all the written homework problems, **typesetting in LaTeX is required** (see [Syllabus]({{ site.baseurl }}{% link syllabus.md %})
 for the rationale). On Gradescope, there will be a `PS #` assigment, where you'll submit a single `.pdf` file compiled from LaTeX.
 
-A template file `ps#_template.zip` will be provided for each problem set, but it is not required that you use this template.
+A template file `ps#_student.zip` will be provided for each problem set, but it is not required that you use this template.
 It should make things easier, but it's optional to use. If you decide to typeset with your own template, be sure to include
 the following information *on the first page of your PDF*:
 
@@ -30,7 +30,7 @@ the following information *on the first page of your PDF*:
 
 Failure to do so will result in a point deduction.
 
-If you're using the template, download `ps#_template.zip` from [Course Content]({{ site.baseurl }}{% link content.md %}). If
+If you're using the template, download `ps#_student.zip` from [Course Content]({{ site.baseurl }}{% link content.md %}). If
 working on Overleaf, you can work from this template by clicking `New Project` then `Upload Project`. Your answers will
 go in the `pset.tex` file. You should put your name and UNI where indicated in the `.tex` file, as well as the names
 and UNIs of your collaborators, if you had any. Per the [Syllabus]({{ site.baseurl }}{% link syllabus.md %}), you may
