@@ -64,7 +64,7 @@ In general, Googling an issue you're having with LaTeX usually provides a pletho
 ### Python
 - [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython) should have most everything you need to get up to speed with the programming required in this course.
 - A condensed version of this *Whirlwind Tour of Python* can be found here: [python_crashcourse.ipynb]({{ site.baseurl }}/assets/files/python_crashcourse.ipynb).
-- Here is a [video]() going through this crash course in case you want to get up to speed in video format.
+- Here is a [video](https://youtu.be/F-z1RAOYqYg) going through this crash course in case you want to get up to speed in video format.
 
 ### Linear Algebra Prerequisites
 If you need to refresh any linear algebra, these may be good resources.
