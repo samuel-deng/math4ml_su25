@@ -40,7 +40,7 @@ sets serve the double purpose of some "required reading" interspersed with probl
 **Lecture pace.** It's really easy, in my experience, to get lost in a math lecture when lots of derivations or proofs are involved. At the
 same time, though, it can often be intimidating to speak up for fear of asking a "dumb question" (no such thing!). To this end, during
 every lecture, I'll have a fully anonymous interactive poll to keep an eye on how people are feeling during lecture and I'll check it intermittently,
-especially during proofs. When prompted to regsiter, just click "Skip for now." [The poll link is here.](https://pollev.com/samdeng)
+especially during proofs. [Access the poll on the Pacing page]({{ site.baseurl }}{% link pace.md %}).
 
 **Unit reviews.** At the end of each "pillar" of the course, we will hold an optional unit review session to make sure that everyone is on the same page before moving onto the next session. These will be informal recitations where we recap the [Course Skeleton]({{ site.baseurl }}{% link skeleton.md %}) to get a big picture view and, more importantly, answer any questions and confusion you might have. The dates/times/locations will be posted here and on the [Calendar]({{ site.baseurl }}{% link calendar.md %}).
 
