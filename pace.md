@@ -3,7 +3,7 @@ layout: page
 title: Lecture Pacing
 description: Lecture pacing poll.
 ---
-
+# Lecture Pacing
 In my experience, it's really easy to get lost in a math class, especially if it is cumulative. At the same time, it can
 be intimidating to interrupt the class with a question or comment (although you are really encouraged to do so at anytime)!
 Because of this, during every lecture, I'll have a fully anonymous interactive poll to keep an eye on how people 
