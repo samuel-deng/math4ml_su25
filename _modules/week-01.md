@@ -21,7 +21,7 @@ May 30
 : **DUE**{: .label .label-blue } **PS 0 due**
 
 LS (Story thus far)
-:
+: Lecture 1.1: [Least squares regression can be solved geometrically with the Pythagorean Theorem.]({{ site.baseurl }}/story_ls/ls1_1.html)
 
 GD (Story thus far)
-:
+: Lecture 1.1: [Gradient descent with a "bowl-shaped" function gets us to the minimum.]({{ site.baseurl }}/story_gd/gd1_1.html)
