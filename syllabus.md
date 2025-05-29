@@ -42,7 +42,7 @@ This is a course with a loose story. The course is structured around two main id
     - First three office hours (5/29, 6/3, 6/5) will have different location (see [Calendar]({{ site.baseurl }}{% link calendar.md %}) for updates).
     - Please come to my (Sam's) office hours once, if only to introduce yourself! 
     - If you can't make my office hours at any time this semester, I'll be happy to schedule a time to meet through email.
-  - Keir: Mondays 1pm - 2pm ET; Wednesdays 1pm - 2pm ET. Location TBD.
+  - Keir: Wednesdays 1pm - 2pm ET; Fridays 1pm - 2pm ET in CSB 453.
 
 ## Prerequisites
 
