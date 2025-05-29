@@ -38,7 +38,7 @@ This is a course with a loose story. The course is structured around two main id
 - **Dates and times:** Tuesdays and Thursdays 5:30pm - 8:40pm ET.
 - **Location:** 402 Chandler. My office hours will be in the DSI Suite in Conference Room 417 (enter Mudd at the 4F campus level, make a left in the opposite direction of the CS department towards Chef Mike's Pizza Pi).
 - **Office Hours:** See the [Calendar]({{ site.baseurl }}{% link calendar.md %}) and watch for announcements on Ed for any changes.
-  - Sam: Tuesdays 2pm - 4pm ET; Thursdays 2pm - 4pm ET, both in DSI 417 in Mudd. Zoom will be available on Wednesday office hours. 
+  - Sam: Tuesdays 2pm - 4pm ET; Thursdays 2pm - 4pm ET, both in DSI 417 in Mudd. Zoom will be available on Thursday office hours (the link wil be available on Ed).
     - First three office hours (5/29, 6/3, 6/5) will have different location (see [Calendar]({{ site.baseurl }}{% link calendar.md %}) for updates).
     - Please come to my (Sam's) office hours once, if only to introduce yourself! 
     - If you can't make my office hours at any time this semester, I'll be happy to schedule a time to meet through email.
