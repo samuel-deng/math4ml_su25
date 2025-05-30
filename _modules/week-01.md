@@ -22,6 +22,7 @@ May 30
 
 LS (Story thus far)
 : Lecture 1.1: [Least squares regression can be solved geometrically with the Pythagorean Theorem.]({{ site.baseurl }}/story_ls/ls1_1.html)
+: Lecture 1.2: [Least squares regression has a simpler solution with orthonormal bases.]({{ site.baseurl }}/story_ls/ls1_2.html)
 
 GD (Story thus far)
-: Lecture 1.1: [Gradient descent with a "bowl-shaped" function gets us to the minimum.]({{ site.baseurl }}/story_gd/gd1_1.html)
+: Lecture 1.1, 1.2: [Gradient descent with a "bowl-shaped" function gets us to the minimum.]({{ site.baseurl }}/story_gd/gd1_1.html)

@@ -55,3 +55,37 @@ eye view of the course's main ideas, definitions, and results.
   - Got a solution to least squares regression by using geometric intuition and solving the normal equations.
 - **Story 2: gradient descent**
   - The *sum of squared residuals* looks like a "bowl."
+
+## Lecture 1.2 (Thurs May 29)
+- *Note:* to fit an intercept, add a "dummy" dimension of all 1's to go from d to d+1.
+- **Definition (subspace).** 
+- **Definition (basis).**
+  - linear independence, span
+- **Definition (columnspace).**
+- **Definition (rank).**
+- missing parts of **Theorem (OLS)**
+  - **Theorem: invertibility of X^T X**
+    - ingredient 1: definition of rank/linear independence
+    - ingredient 2: positive definiteness of inner product
+  - **Theorem: Pythagorean theorem**
+    - ingredient 1: all the properties of inner products
+    - ingredient 2: definition of orthogonality
+  - **Theorem: projection minimizes distance**
+    - ingredient: Pythagorean theorem
+- **Definition (projection).**
+  - equivalent to OLS
+- **Definition (linearity).**
+  - matrices as linear transformations and vice versa (HW problem)
+  - one such linear transformation: projection
+- **Definition (unit vector).**
+- **Definition (orthonormal basis).**
+- **Definition (orthogonal matrix).**
+  - for rectangular matrices: **Definition (semi-orthogonal matrix).**
+- **Theorem: Ordinary least squares with orthonormal basis.**
+  - main theorem in this lecture -- simplifies OLS solution greatly (no inverses).
+- **Story 1: least squares regression**
+  - Filled in the "geometric intuition" with **Theorem: invertibility of X^T X** and **Theorem: projection minimizes distance**
+  - Projection is equivalent to OLS.
+  - When we have an orthonormal basis, we get a much simpler solution to OLS.
+- **Story 2: gradient descent**
+  - Nothing new: the *sum of squared residuals* looks like a "bowl."
