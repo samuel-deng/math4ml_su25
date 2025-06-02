@@ -62,8 +62,7 @@ Here's some more advice from folks much wiser than I am:
 - [Distance Metric Learning for Large Margin Nearest Neighbor Classiﬁcation]({{ site.baseurl }}/project/Weinberger_Saul.pdf) by Kilian Q. Weinberger and Lawrence K. Saul
 
 ## First Evaluation Outline
-For the first evaluation of the paper, submit a LaTeX document that follows these guidelines. The formatting is mostly
-up to you; just make sure that the document is neat and your name and UNI are on the document somewhere.
+For the first evaluation of the paper, submit a LaTeX-formatted PDF document that follows these guidelines. The formatting is mostly up to you; just make sure that the document is neat and your name and UNI are on the document somewhere.
 
 **Length:** Your evaluation should be 1-2 pages in length total. If you go a bit over 2 pages, that's fine.
 
