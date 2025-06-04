@@ -56,7 +56,7 @@ eye view of the course's main ideas, definitions, and results.
 - **Story 2: gradient descent**
   - The *sum of squared residuals* looks like a "bowl."
 
-## Lecture 1.2 (Thurs May 29)
+## Lecture 1.2: Subspaces, bases, and orthogonality (Thurs May 29)
 - *Note:* to fit an intercept, add a "dummy" dimension of all 1's to go from d to d+1.
 - **Definition (subspace).** 
 - **Definition (basis).**
@@ -87,5 +87,35 @@ eye view of the course's main ideas, definitions, and results.
   - Filled in the "geometric intuition" with **Theorem: invertibility of X^T X** and **Theorem: projection minimizes distance**
   - Projection is equivalent to OLS.
   - When we have an orthonormal basis, we get a much simpler solution to OLS.
+- **Story 2: gradient descent**
+  - Nothing new: the *sum of squared residuals* looks like a "bowl."
+
+## Lecture 2.1: Singular Value Decomposition (Tues Jun 3, 2025)
+- **Definition (orthogonal complement).**
+- **Properties (projection matrices).**
+  - **Prop (Orthogonal decomposition).**
+  - **Prop (Projection and orthogonal complement matrices)**
+  - **Prop (Projecting twice doesn't do anything).**
+  - **Prop (Projections are symmetric).**
+  - **Prop (1D Projection formula).**
+  - Proofs left as exercises -- ask Sam if you can't figure one of them out.
+- **Problem: best-fitting 1D subspace.**
+  - Use all the properties of projection matrices to get the final form.
+  - Final form gives 1st singular vector and singular value.
+- **Definition (Full SVD).**
+  - **Definition (left singular vectors).** Give a basis for the columnspace.
+  - **Definition (right singular vectors).** Give a basis for the rowspace (columnspace of X transpose).
+  - **Definition (singular values).** Exactly *r* (rank of X) positive singular values.
+- **Definition (Compact SVD).**
+- **Theorem (rank-k approximation).**
+  - "chop off" the SVD at k << r to get an approximation of a matrix.
+- **Definition (pseudoinverse).**
+  - "generalization" of the inverse using the SVD.
+- **Theorem (OLS with pseudoinverse).**
+  - Use the pseudoinverse as if it were the actual inverse to get the OLS solution, w
+- **Theorem (minimum norm solution).**
+  - Using the pseudoinverse gives us the minimum norm solution when d > n and rank(X) = n (infinitely many exact solutions).
+- **Story 1: least squares regression**
+  - The pseudoinverse unified all situations where we want a least squares solution (when d > n or n > d).
 - **Story 2: gradient descent**
   - Nothing new: the *sum of squared residuals* looks like a "bowl."
