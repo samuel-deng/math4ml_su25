@@ -11,7 +11,7 @@ Jun 3
 
 Jun 5
 : Lecture: Eigendecomposition and PSD Matrices
-  : [Positive Definite Quad. Form]({{ site.baseurl }}/assets/figs/pd_gd.html), [Positive Semidefinite Quad. Form]({{ site.baseurl }}/assets/figs/psd_gd.html), [Indefinite Quad. Form (bad initialization)]({{ site.baseurl }}/assets/figs/indef_gd_bad.html), [Indefinite Quad. Form (good initialization)]({{ site.baseurl }}/assets/figs/indef_gd_good.html), [Quadratics are dominated by the degree-2 terms]({{ site.baseurl }}/assets/figs/quad242_stack.html), [MML 4.2, 4.4, 4.5](https://mml-book.github.io/book/mml-book.pdf), [3Blue1Brown on eigenvalues/eigenvectors](https://www.youtube.com/watch?v=PFDu9oVAE-g)
+  : [Positive Definite Quad. Form]({{ site.baseurl }}/assets/figs/pd_gd.html), [Positive Semidefinite Quad. Form]({{ site.baseurl }}/assets/figs/psd_gd.html), [Indefinite Quad. Form]({{ site.baseurl }}/assets/figs/indef_gd_bad.html), [Indefinite Quad. Form (another initialization)]({{ site.baseurl }}/assets/figs/indef_gd_good.html), [Quadratics are dominated by the degree-2 terms]({{ site.baseurl }}/assets/figs/quad242_stack.html), [MML 4.2, 4.4, 4.5](https://mml-book.github.io/book/mml-book.pdf), [3Blue1Brown on eigenvalues/eigenvectors](https://www.youtube.com/watch?v=PFDu9oVAE-g)
 
 Jun 6
 : **DUE**{: .label .label-blue } **PS 1 due**
