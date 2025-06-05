@@ -10,7 +10,7 @@ Jun 3
   : [ps2.pdf]({{ site.baseurl }}/assets/files/ps2.pdf), [ps2_student.zip]({{ site.baseurl }}/assets/files/ps2_student.zip), [ps2.ipynb]({{ site.baseurl }}/assets/files/ps2.ipynb), [ps2_tex.zip]({{ site.baseurl }}/assets/files/ps2_tex.zip)
 
 Jun 5
-: [Lecture: Eigendecomposition and PSD Matrices]({{ site. baseurl
+: [Lecture: Eigendecomposition and PSD Matrices]({{ site.baseurl
 }}/assets/slides/2.2_eigen.pdf)
   : [Positive Definite Quad. Form]({{ site.baseurl }}/assets/figs/pd_gd.html), [Positive Semidefinite Quad. Form]({{ site.baseurl }}/assets/figs/psd_gd.html), [Indefinite Quad. Form]({{ site.baseurl }}/assets/figs/indef_gd_bad.html), [Indefinite Quad. Form (another initialization)]({{ site.baseurl }}/assets/figs/indef_gd_good.html), [Quadratics are dominated by the degree-2 terms]({{ site.baseurl }}/assets/figs/quad242_stack.html), [MML 4.2, 4.4, 4.5](https://mml-book.github.io/book/mml-book.pdf), [3Blue1Brown on eigenvalues/eigenvectors](https://www.youtube.com/watch?v=PFDu9oVAE-g)
 
