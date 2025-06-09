@@ -119,3 +119,27 @@ eye view of the course's main ideas, definitions, and results.
   - The pseudoinverse unified all situations where we want a least squares solution (when d > n or n > d).
 - **Story 2: gradient descent**
   - Nothing new: the *sum of squared residuals* looks like a "bowl."
+
+## Lecture 2.2 Eigendecomposition and Positive Semidefinite Matrices (Thurs Jun 5, 2025)
+- **Definition (eigenvector).**
+- **Definition (eigenvalue).**
+- **Prop (Eigendecomposition of diagonalizable matrices).**
+  - When are matrices diagonalizable?
+  - Connection with the SVD.
+- **Definition (Positive Semidefinite Matrices).**
+  - Three definitions
+    - All eigenvalues are nonnegative.
+    - Associated quadratic form is nonnegative.
+    - Can be "factored" into X^T X
+- **Theorem (Spectral Theorem).** All symmetric matrices are diagonalizable.
+- Application of eigenvectors/eigenvalues: PCA (principal components analysis).
+- Quick analysis of errors in least squares with eigenvectors/eigenvalues.
+- **Definition (Quadratic Forms).** Closely related to symmetric matrices.
+  - Three possibilities
+    - Positive definite
+    - Positive semidefinite
+    - Indefinite
+- **Story 1: least squares regression**
+  - Eigenvalues/eigenvectors allow us to analyze the errors in least squares regression.
+- **Story 2: gradient descent**
+  - Positive semidefinite and positive definite quadratic forms seem ripe for gradient descent.
