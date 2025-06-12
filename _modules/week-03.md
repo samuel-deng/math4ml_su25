@@ -10,14 +10,14 @@ Jun 10
   : [ps3.pdf]({{ site.baseurl }}/assets/files/ps3.pdf), [ps3_student.zip]({{ site.baseurl }}/assets/files/ps3_student.zip), [ps3.ipynb]({{ site.baseurl }}/assets/files/ps3.ipynb)
 
 Jun 12
-: Lecture: Taylor Series, Linearization, and Gradient Descent
-    : [GD Example 1 (big eta)]({{ site.baseurl }}/assets/figs/3.2/gd1_etabig.html), [GD Example 1 (small eta)]({{ site.baseurl }}/assets/figs/3.2/gd1_etasmall.html), [GD Example 2 (big eta)]({{ site.baseurl }}/assets/figs/3.2/gd2_etabig.html), [GD Example 2 (small eta)]({{ site.baseurl }}/assets/figs/3.2/gd2_etasmall.html), [Linearization in 3D]({{ site.baseurl }}/assets/figs/3.2/linearization3d.html), [Polynomial 1]({{ site.baseurl }}/assets/figs/3.2/poly3d1.html), [Polynomial 2]({{ site.baseurl }}/assets/figs/3.2/poly3d2.html), [Beta-smooth function]({{ site.baseurl }}/assets/figs/3.2/smooth1.html), [3Blue1Brown video on Taylor Series](https://www.youtube.com/watch?v=3d6DsjIBzJ4&t=223s)
+: [Lecture: Gradient Descent, Linearization, and Taylor Series]({{ site.baseurl }}/assets/slides/3.2_taylor.pdf)
+    : [3Blue1Brown video on Taylor Series](https://www.youtube.com/watch?v=3d6DsjIBzJ4&t=223s), [MML 5.8](https://mml-book.github.io/book/mml-book.pdf), [3Blue1Brown video on Gradient Descent and Neural Networks](https://www.youtube.com/watch?v=IHZwWFHWa-w)
 
 Jun 13
 : **DUE**{: .label .label-blue } **PS 2 due**
 
 LS (Story thus far)
-:
+: Lecture 3.1: We can derive the exact same OLS theorem from linear algebra section from just the tools of optimization and viewing the notion of [least squares error as an "objective function."]({{ site.baseurl }}/assets/figs/pd_ls.html)
 
 GD (Story thus far)
-:
+: Lecture 3.1: We can now write down the *algorithm* for gradient descent. Intuitively, [positive semidefinite]({{ site.baseurl }}/assets/figs/psd_gd.html) or [positive definite]({{ site.baseurl }}/assets/figs/pd_gd.html) quadratic forms seem good for gradient descent.
