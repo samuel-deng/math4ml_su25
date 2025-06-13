@@ -143,3 +143,55 @@ eye view of the course's main ideas, definitions, and results.
   - Eigenvalues/eigenvectors allow us to analyze the errors in least squares regression.
 - **Story 2: gradient descent**
   - Positive semidefinite and positive definite quadratic forms seem ripe for gradient descent.
+
+## Lecture 3.1 (Tues Jun 10, 2025)
+- **Definition (difference quotient).**
+- **Definition (single-variable derivative).**
+- Main idea: differential calculus allows us to replace nonlinear functions with linear approximations.
+- **Definition (directional derivative).**
+- **Definition (partial derivative).**
+- **Definition (gradient).** Only for scalar-valued functions.
+- **Definition (Jacobian).** For general vector-valued functions.
+- **Definition (open ball/neighborhood).** The points local to a point.
+- **Definition (total derivative/differentiable).** Notion of a multivariable derivative.
+- **Definition (smoothness).** Continuously differentiable, the class C^1.
+- **Theorem (Sufficient criterion for differentiability).** 
+  - If a function is smooth, then it is differentiable and its derivative *is* its Jacobian/gradient.
+- **Theorem (directional derivatives from total derivative).**
+  - If a function is differentiable, we can get all directional derivatives from matrix-vector product with derivative.
+- Big picture: if a function is smooth, then its derivative is its Jacobian/gradient (which we get from taking the partial derivatives).
+  - Directional derivatives come from matrix-vector product with the Jacobian/gradient.
+  - We'll primarily concern ourselves with smooth functions.
+- **Definition (Hessian).**
+- **Theorem (equality of mixed partials).** All C^2 functions have symmetric Hessians.
+- **Theorem (OLS from optimization).**
+- **Algorithm (gradient descent).**
+- **Story 1: least squares regression**
+  - We can obtain the same OLS theorem using only the tools of optimization/calculus.
+- **Story 2: gradient descent**
+  - We can now properly write out the algorithm for gradient descent now that we know what a gradient is.
+
+## Lecture 3.2 (Thurs Jun 12, 2025)
+- **Algorithm (Gradient Descent).**
+  - Finally defined gradient descent.
+- **Definition (first-order approximation/linearization).**
+- **Definition (polynomial).**
+- **Definition (Taylor Series).** Defined at a point, x_0.
+  - *pth order Taylor approximation*
+    - We will mostly concern ourselves with first-order and second-order approximations.
+  - *pth order Taylor polynomial*
+- **Definition (Remainder from Taylor Series).**
+  - The "leftover" after chopping off the Taylor series at some degree.
+- **Theorem (Taylor's Theorem).**
+  - Quantifying the remainder/error exactly.
+- **Definition (beta-smooth functions/matrices).**
+  - Bound on the maximum eigenvalue.
+- **Theorem (Gradient descent for beta-smooth functions).**
+  - For beta-smooth functions, gradient descent with a small enough step size makes the function value smaller at each iteration.
+  - Ingredients:
+    - Taylor's Theorem (on the 1st order approximation/linearization).
+    - beta-smooth function definition.
+- **Story 1: least squares regression**
+  - Nothing too new here -- just reviewed obtaining OLS solution via optimization.
+- **Story 2: gradient descent**
+  - Formally wrote the algorithm and gave the first convergence proof of gradient descent for beta-smooth functions.

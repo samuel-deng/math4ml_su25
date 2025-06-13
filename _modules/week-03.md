@@ -21,3 +21,4 @@ LS (Story thus far)
 
 GD (Story thus far)
 : Lecture 3.1: We can now write down the *algorithm* for gradient descent. Intuitively, [positive semidefinite]({{ site.baseurl }}/assets/figs/psd_gd.html) or [positive definite]({{ site.baseurl }}/assets/figs/pd_gd.html) quadratic forms seem good for gradient descent.
+: Lecture 3.2: Using Taylor's theorem for the first-order approximation (linearization), we can provide intuition and a formal guarantee that gradient descent makes the function values decrease. The behavior of gradient descent depends on the learning rate eta: [eta too big will result in erratic behavior]({{ site.baseurl }}/assets/figs/running_example_etabig.html) but [small enough eta]({{ site.baseurl }}/assets/figs/running_example.html) results in stable convergence. This eta setting depends intimately on the second order information, or ["smoothness" of the function]({{ site.baseurl }}/assets/figs/running_example_nonsmooth.html)
