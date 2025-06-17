@@ -15,6 +15,33 @@ Problem sets will be made available in [Course Content]({{ site.baseurl }}{% lin
 the [Syllabus]({{ site.baseurl }}{% link syllabus.md %}), each student has 6 late days total throughout the summer session,
 and **no homework will be accepted after 11:59 PM ET three late days after the initial due date**.
 
+## Update: Skipped Problem (PS3 Onward)
+Because of the accelerated nature of the summer session, students are allowed to *completely skip* one of the problems
+(including the programming) on each problem set on PS3, PS4, and PS5. Any skipped problem will be counted for full credit. 
+Note that there is no curve in this course, so skipping will not give any student a "competitive advantage" in that 
+regard; this option is just there to help you save time. *If you have the time, I still encourage you to completely solve each problem set!*
+Using this additional time, I encourage students to visit the [Main Proofs]({{ site.baseurl }}{% link proofs.md %}) and 
+[Course Skeleton]({{ site.baseurl }}{% link skeleton.md %}) to stay on top of the lecture material.
+
+Students can only skip whole problems (you cannot "distribute" your skip over multiple subproblems). In order to skip a problem:
+
+**Written problem:** For the problem that you want to skip, still write down the problem and its problem number on your
+problem set, following the instructions below. In the body of the problem, clearly write in boldface (using the *textbf* command):
+
+    **Problem (X) is my skipped problem.**
+
+where, above, *X* indicates the problem number. Still use the Gradescope functionality to use "Select pages" to assign the
+correct pages to the skipped problem.
+
+**Programming part:** If you want to skip the programming problem, still submit a single `.ipynb` file from the 
+`ps#.ipynb` supplied to you. Delete every cell in the notebook except for the top Markdown cell, and in this Markdown cell,
+clearly write:
+
+    **I am skipping this Programming Problem.**
+
+You just turn in this single `.ipynb` file. If you decide to skip the Programming portion, note that you must complete 
+all of the written problems because you used your skip on the Programming problem.
+
 ## Written Part
 For all the written homework problems, **typesetting in LaTeX is required** (see [Syllabus]({{ site.baseurl }}{% link syllabus.md %})
 for the rationale). On Gradescope, there will be a `PS #` assigment, where you'll submit a single `.pdf` file compiled from LaTeX.
