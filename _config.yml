@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Math for ML
-tagline: Columbia University, COMS4995 Summer A 2025
+tagline: Columbia University, COMS 3770 Summer A 2025
 description: Mathematics for Machine Learning
 author: Samuel Deng
 baseurl: '/math4ml_su25' # the subpath of your site, e.g. /blog
