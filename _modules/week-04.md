@@ -2,8 +2,10 @@
 title: Calculus and Optimization II (optimization and convexity)
 ---
 Jun 17
-: Lecture: Optimization and the Lagrangian
+: [Lecture: Optimization and the Lagrangian]({{ site.baseurl }}/assets/slides/4.1_optimization.pdf)
     : [Constrained least squares (ridge regression)]({{ site.baseurl }}/story_ls/ls4_1.html), [MML 7.1 - 7.2](https://mml-book.github.io/book/mml-book.pdf)
+: [PS 4]({{ site.baseurl }}/assets/files/ps4.pdf) released (due June 27 11:59 PM ET)
+  : [ps4.pdf]({{ site.baseurl }}/assets/files/ps4.pdf), [ps4_student.zip]({{ site.baseurl }}/assets/files/ps4_student.zip), [ps4.ipynb]({{ site.baseurl }}/assets/files/ps4.ipynb)
     
 Jun 19
 : Class rescheduled to Friday, June 20th due to Juneteenth
