@@ -101,3 +101,22 @@ Ingredients:
 1. **First-order Taylor's Theorem.** Apply first-order Taylor's Theorem to the current step of GD and the next step.
 2. **Use linear algebra on the first-order approximation.** Simplify using linear algebra, keeping in mind the usual trick: if we want to show that something is smaller than something else, show that you're adding a nonnegative quantity.
 3. **Smoothness to bound the quadratic form.** The quadratic form in Taylor's Theorem gets bounded by the bound we get from smoothness and the eigenvalue. This is how we get the choice of learning rate.
+
+## Lecture 4.1: Optimization and the Lagrangian (Tues June 17, 2025)
+**Problem (Smallest point in a halfspace).** Found on page 101 on 4.1 slides.
+Ingredients:
+1. **Lagrangian function.** Setup the Lagrangian for the problem.
+2. **First-order conditions for Lagrangian.** Take first derivatives (gradients) for the Lagrangian and solve for candidate points.
+3. **Complementary slackness.** Use the definition of complementary slackness to obtain more necessary conditions and solve.
+
+Note that this is not really a theorem, but just a problem. The important thing is to
+understand how each part of the KKT Theorem applies to this particular problem.
+
+## Lecture 4.2: Convexity and convex optimization (Thurs Jun 20, 2025)
+**Theorem (Convergence of GD for smooth, convex functions).** Found on page 65 of 4.2 slides.
+Ingredients:
+1. **Potential function.** Define potential function: distance of current x_t to the minimum x_star.
+2. **Analyze drop in potential function and show it is nonnegative.** Analyze the drop from one step to next: Phi(x_{t-1}) to Phi(x_t).
+   1. One part is lower bounded by **first-order definition of convexity.**
+   2. Other part is lower bounded by **descent lemma.**
+3. **Sum up and telescope the drop in potential.** After lower bounding drop in potential, sum both sides up to T. Many terms cancel.

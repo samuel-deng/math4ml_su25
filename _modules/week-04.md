@@ -18,7 +18,9 @@ Jun 20
 : **DUE**{: .label .label-blue } **PS 3 due**
 
 LS (Story thus far)
-:
+: Lecture 4.1: In some applications, it may be favorable to [*regularize* the least squares objective]({{ site.baseurl }}/story_ls/ls4_1.html) by trading off minimizing the objective with the norm of the weights.
+: Lecture 4.2: The least squares objective is a [convex function]({{ site.baseurl }}/assets/figs/convex3d_def1.html) (also: [first-order definition]({{ site.baseurl }}/assets/figs/convex3d_def2.html)); applying [gradient descent takes us to a global minimum](https://samuel-deng.github.io/assets/lec/running_example.html)
 
 GD (Story thus far)
-:
+: Lecture 4.1: Nothing new here.
+: Lecture 4.2: Applying [gradient descent to beta-smooth, *convex* functions takes us to a global minimum](https://samuel-deng.github.io/assets/lec/running_example.html). One such function is the least squares objective.

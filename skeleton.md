@@ -144,7 +144,7 @@ eye view of the course's main ideas, definitions, and results.
 - **Story 2: gradient descent**
   - Positive semidefinite and positive definite quadratic forms seem ripe for gradient descent.
 
-## Lecture 3.1 (Tues Jun 10, 2025)
+## Lecture 3.1: Differentiation and vector calculus (Tues Jun 10, 2025)
 - **Definition (difference quotient).**
 - **Definition (single-variable derivative).**
 - Main idea: differential calculus allows us to replace nonlinear functions with linear approximations.
@@ -171,7 +171,7 @@ eye view of the course's main ideas, definitions, and results.
 - **Story 2: gradient descent**
   - We can now properly write out the algorithm for gradient descent now that we know what a gradient is.
 
-## Lecture 3.2 (Thurs Jun 12, 2025)
+## Lecture 3.2: Gradient Descent, Linearization, and Taylor Series (Thurs Jun 12, 2025)
 - **Algorithm (Gradient Descent).**
   - Finally defined gradient descent.
 - **Definition (first-order approximation/linearization).**
@@ -195,3 +195,59 @@ eye view of the course's main ideas, definitions, and results.
   - Nothing too new here -- just reviewed obtaining OLS solution via optimization.
 - **Story 2: gradient descent**
   - Formally wrote the algorithm and gave the first convergence proof of gradient descent for beta-smooth functions.
+
+## Lecture 4.1: Optimization and the Lagrangian (Tues June 17, 2025)
+- **Definition (optimization problem)**
+  - **Definition (objective function)**.
+  - **Definition (constraint set)**.
+- **Definition (neighborhood/open ball)**.
+- **Definition (interior point)**.
+- Types of minima:
+  - **Definition (local minimum)**. AKA unconstrained local minimum.
+  - **Definition (constrained local minimum)**
+  - **Definition (global minimum)**.
+- **Theorem (Necessary conditions for unconstrained local minimum).**
+  - First-order condition.
+  - Second-order condition.
+- **Theorem (Sufficient conditions for unconstrained local minimum).**
+  - First-order condition.
+  - Second-order condition.
+- **Definition (Equality constrained optimization).**
+- **Definition (regular point).**
+- **Definition (Lagrangian).**
+- **Theorem (Lagrange Multiplier Theorem).**
+  - Necessary conditions for local minima in equality-constrained optimization.
+- **Definition (inequality constrained optimization).**
+- **Theorem (KKT Theorem).**
+  - **Definition (complementary slackness)**
+- **Story 1: least squares regression**
+  -  In some applications, it may be favorable to regularize the least squares objective by trading off minimizing the objective with the norm of the weights (PENDING -- this will be covered in the probability lectures)
+- **Story 2: gradient descent**
+  - Nothing new here (we still can only guarantee *local minima*).
+
+## Lecture 4.2: Convexity and convex optimization (Thurs Jun 20, 2025) 
+- **Definition (Convex Optimization Problem).**
+- **Definition (line segment).**
+- **Definition (convex set).**
+  - Example: lines
+  - Example: hyperplane
+  - Example: halfspace
+- **Definition (convex function).**
+  - Example: quadratic forms
+  - Example: affine functions
+  - Example: exponential functions
+- Three characterizations of convex functions.
+  - Original definition (secants always above the graph).
+  - First-order definition (gradient is always under the graph).
+  - Second-order definition (Hessian is PSD).
+- **Theorem (Optimality for convex optimization).**
+  - All local minima are global minima.
+- **Theorem (Convergence of GD for smooth, convex functions).**
+  - Convergence of GD to global minimum.
+- **Theorem (GD applied to OLS).**
+  - Algorithm for OLS.
+  - Verifying OLS is a convex optimization problem.
+- **Story 1: least squares regression**
+  - The least squares objective is a convex function; applying gradient descent takes us to a global minimum.
+- **Story 2: gradient descent**
+  - Applying gradient descent to beta-smooth, convex functions takes us to a global minimum. One such function is the least squares objective.
