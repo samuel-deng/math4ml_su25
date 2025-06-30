@@ -251,3 +251,59 @@ eye view of the course's main ideas, definitions, and results.
   - The least squares objective is a convex function; applying gradient descent takes us to a global minimum.
 - **Story 2: gradient descent**
   - Applying gradient descent to beta-smooth, convex functions takes us to a global minimum. One such function is the least squares objective.
+
+## Lecture 5.1: Probability Theory, Models, and Data (Tues Jun 24, 2025)
+- **Definition (probability space).**
+  - **Definition (Sample Space).**
+  - **Definition (Event).**
+  - **Definition (Probability Measure).**
+- **Definition (conditional probability).**
+  - Law of total probability
+  - Bayes rule.
+- **Definition (Random Variable).**
+ - **Definition (discrete RVs).**
+ - **Definition (probability mass function).**
+- **Definition (distribution/law of an RV).**
+  - **Definition (Cumulative distribution function CDF).**
+  - **Definition (Probability mass function PMF)** for discrete RVs.
+  - **Definition (Probability density function PDF)** for continuous RVs.
+- **Definition (joint distributions).**
+  - **Definition (marginal distribution).**
+  - **Definition (conditional distribution).**
+- **Definition (independence).**
+  - Independent and identically distributed.
+- Summary statistics of a random variable:
+  - **Definition (expectation).**
+    - Conditional expectation given events.
+    - Conditional expectation given a random variable.
+  - **Definition (variance).**
+  - **Definition (covariance).**
+- **Story 1: least squares regression**
+  - Modeled the regression problem with a linear model with random errors. In this model, OLS is *itself* a random variable, so we will analyze its statistical properties.
+- **Story 2: gradient descent**
+  - Nothing new here.
+
+## Lecture 5.2 (Wed, July 31, 2024)
+- Statistics vs. probability theory.
+- **Definition (random vector).**
+  - Expectation of a random vector.
+- **Definition (covariance matrix).**
+  - This is the "variance" of a random vector.
+  - Also: covariance matrix of the data and empirical covariance matrix.
+- Regression setup with randomness.
+  - Linear model with mean-zero, independent noise epsilon.
+- **Theorem (statistical properties of OLS: Expectation and Variance).**
+  - Expectation of OLS is the true linear relationship w*.
+  - Variance of OLS scales with the variance of the noise, epsilon, and the inverse of the data covariance.
+- **Theorem (Weak Law of Large Numbers).**
+  - Ingredients:
+    - **Theorem (Markov's Inequality).**
+    - **Theorem (Chebyshev's Inequality).**
+- **Definition (sample average).**
+- **Definition (statistical estimator).**
+  - Estimand.
+  - Estimator.
+- **Story 1: least squares regression**
+  - Found two key statistical properties of OLS: OLS' expectation is the true linear model and its variance scales with the variance of the random errors.
+- **Story 2: gradient descent**
+  - Nothing new here.
