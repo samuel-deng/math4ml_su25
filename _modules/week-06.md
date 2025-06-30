@@ -2,7 +2,7 @@
 title: Probability and Statistics II (Maximum likelihood and Gaussian distribution)
 ---
 Jul 1
-: Lecture: The Central Limit Theorem, "Named" Distributions, and MLE
+: [Lecture: The Central Limit Theorem, "Named" Distributions, and MLE]({{ site.baseurl }}/assets/slides/6.1_distributions.pdf)
     : [MML 6.1-6.8](https://mml-book.github.io/book/mml-book.pdf), [MML Ch. 8](https://mml-book.github.io/book/mml-book.pdf), [3Blue1Brown's video on the Central Limit Theorem](https://www.youtube.com/watch?v=zeJD6dqJ5lo&t=314s)
 
 Jul 3
