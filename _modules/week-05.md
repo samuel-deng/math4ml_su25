@@ -14,9 +14,12 @@ Jun 26
 
 Jun 27
 : **DUE**{: .label .label-blue } **PS 4 due**
+: Unit 2 Calculus Review Session (in video library)
+    : [Handwritten notes]({{ site.baseurl }}/assets/files/unit2_review.pdf)
 
 LS (Story thus far)
-:
+: Lecture 5.1: Modeled the regression problem with a [linear model with random errors]({{ site.baseurl }}/assets/figs/regression_noise.html). In this model, OLS is *itself* a random variable, so we will analyze its statistical properties.
+: Lecture 5.2: Found two key statistical properties of OLS: OLS' expectation is the true linear model and its variance scales with the variance of the random errors.
 
 GD (Story thus far)
-:
+: Lecture 5.1 and 5.2: Nothing new here.

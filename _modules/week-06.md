@@ -11,6 +11,7 @@ Jul 3
 
 Jul 4
 : **DUE**{: .label .label-blue } **PS 5 due**
+    : Problem 2 is extra credit (see Ed)
 
 Jul 8
 : **DUE**{: .label .label-blue } **Final Project Evaluation due**
