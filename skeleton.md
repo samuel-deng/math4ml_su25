@@ -283,7 +283,7 @@ eye view of the course's main ideas, definitions, and results.
 - **Story 2: gradient descent**
   - Nothing new here.
 
-## Lecture 5.2 (Wed, July 31, 2024)
+## Lecture 5.2: Probability Theory (cont.), Law of Large Numbers, and Statistical Estimators (Thurs Jun 26, 2025)
 - Statistics vs. probability theory.
 - **Definition (random vector).**
   - Expectation of a random vector.
@@ -305,5 +305,45 @@ eye view of the course's main ideas, definitions, and results.
   - Estimator.
 - **Story 1: least squares regression**
   - Found two key statistical properties of OLS: OLS' expectation is the true linear model and its variance scales with the variance of the random errors.
+- **Story 2: gradient descent**
+  - Nothing new here.
+
+## Lecture 6.1: Statistical Estimators (cont.) and Central Limit Theorem (Tues Jul 1, 2025)
+- **Definition (bias of estimators).**
+- **Definition (variance of estimators).**
+- **Definition (Mean squared error).**
+- **Theorem (Bias-variance decomposition).**
+- **Algorithm (Stochastic Gradient Descent).**
+  - Single-sample SGD.
+  - Mini-batch SGD.
+- **Theorem (statistical analysis of risk).**
+  - Proof needs **Definition (trace).**
+- **Theorem (Statistical properties of OLS).**
+  - Completed our statistical analysis of OLS by formally writing: expectation, variance, bias, MSE, and risk.
+- **Story 1: least squares regression**
+  - Derived important statistical properties (expectation, variance, bias, MSE, and risk) of OLS estimator.
+- **Story 2: gradient descent**
+  - Closed the story of gradient descent by defining *stochastic gradient descent*, where we use unbiased estimators of the gradient instead of the full gradient over all the data.
+
+## Lecture 6.2: Named Distributions, MLE, and Finale (Thurs Jul 3, 2025)
+- "Named" Discrete Distributions
+  - Point mass distribution.
+  - Discrete uniform distribution.
+  - Bernoulli distribution.
+  - Binomial distribution.
+  - Geometric distribution.
+  - Poisson distribution.
+- "Named" Continuous Distributions
+  - Uniform distribution.
+  - Gaussian distribution.
+  - Chi-squared distribution.
+  - Exponential distribution.
+- **Definition (Maximum likelihood estimation).**
+  - Parameter space, parametric model.
+  - Likelihood function.
+  - Log-likelihood function.
+- **Theorem (OLS and MLE).**
+- **Story 1: least squares regression**
+  - Demonstrated that, under another paradigm for machine learning (maximum likelihood estimation), the OLS estimator corresponds to MLE on the Gaussian error model.
 - **Story 2: gradient descent**
   - Nothing new here.

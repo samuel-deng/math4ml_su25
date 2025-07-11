@@ -120,3 +120,39 @@ Ingredients:
    1. One part is lower bounded by **first-order definition of convexity.**
    2. Other part is lower bounded by **descent lemma.**
 3. **Sum up and telescope the drop in potential.** After lower bounding drop in potential, sum both sides up to T. Many terms cancel.
+
+## Lecture 5.1: Probability Theory, Models, and Data (Tues Jun 24, 2025)
+**Theorem (Expectation and Variance of OLS).** Found on page 139 of 5.1 slides.
+Ingredients:
+1. **Expectation.** Use conditional expectation and error model assumption, then use LOTE (law of total expectation).
+2. **Variance.** Use conditional variance and error model assumption, then use LOTV (law of total variance).
+   1. Requires covariance of epsilon.
+   2. Also remember conditional expectation properties: taking out what's known, LOTE, etc.
+
+This result was only shown, but not proven in this lecture. The proof was at the beginning of lecture 5.2.
+
+## Lecture 5.2: Probability Theory (cont.), Law of Large Numbers, and Statistical Estimators (Thurs Jun 26, 2025)
+**Theorem (Expectation and Variance of OLS).** Found on page 139 of 5.1 slides.
+Ingredients:
+1. **Expectation.** Use conditional expectation and error model assumption, then use LOTE (law of total expectation).
+2. **Variance.** Use conditional variance and error model assumption, then use LOTV (law of total variance).
+   1. Requires covariance of epsilon.
+   2. Also remember conditional expectation properties: taking out what's known, LOTE, etc.
+
+Note that this was actually covered in the beginning of this lecture in depth.
+
+## Lecture 6.1: Statistical Estimators (cont.) and Central Limit Theorem (Tues Jul 1, 2025)
+**Theorem (Parameter MSE of OLS and Risk of OLS).** Found on page 106 of 5.2 slides.
+Ingredients:
+1. **Parameter MSE.** Used definitions of bias and variance and, importantly, the *bias-variance decomposition.*
+   1. To prove this, I'd make sure you know how to prove the bias-variance decomposition. The main "trick" is introducing the expectation of the estimator into the squared term.
+2. **Risk of OLS.** We actually didn't have time to prove this in class, but you have all the tools.
+   1. To prove this, do a similar decomposition by substituting the definition of y in the error model.
+   2. Simplify as usual. The true covariance matrix will come from the expectation and linearity of expectation and trace.
+   3. The "approximation" comes from the LLN.
+
+## Lecture 6.2: Named Distributions, MLE, and Finale (Thurs Jul 3, 2025)
+**Theorem (OLS and MLE).** Found on page 101 of 6.1 slides.
+Ingredients:
+1. **Likelihood definition and maximizing log-likelihood.** Use the definition of likelihood and log-likelihood for the Gaussian.
+2. **Simplify Gaussian and pattern match.** Recognize what is constant in the product of Gaussian PDFs. Recognize we know this optimization problem already.
